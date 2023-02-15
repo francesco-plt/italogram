@@ -13,11 +13,6 @@ def send_welcome(message):
     print("New user: %s" % message.from_user.username)
     bot.reply_to(message, "Welcome to Italogram! Send a message with a train number to get some information about it.")
 
-# @bot.message_handler(commands=['stop'])
-# def quit_bot(message):
-#     print("Stopping...")
-#     bot.reply_to(message, "Stopping...")
-#     bot.stop_polling()
 
 @bot.message_handler(func=lambda msg: True)
 def get_train_status(message):
