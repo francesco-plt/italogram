@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  italogram:
+    build: .
+    environment:
+      - TELEGRAM_TOKEN=your_telegram_token_here
+    ports:
+      - 8443:8443
