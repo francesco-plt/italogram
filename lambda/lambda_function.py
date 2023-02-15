@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from logic import clean_data, format_message, query_data
+from ..src.logic import clean_data, format_message, query_data
 from telebot import TeleBot
 
 load_dotenv()
