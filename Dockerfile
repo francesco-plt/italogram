@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8443
 
 # Run the bot when the container starts
-CMD ["python", "app.py"]
+CMD ["python", "src/app.py"]
