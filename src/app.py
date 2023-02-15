@@ -36,7 +36,6 @@ def get_train_status(message):
         bot.send_message(message.chat.id, "That train doesn't exist or it's already arrived to destination...")
         return
     data = clean_data(query_data(train_id))
-    print(data)
 
     # query_data returns the integer
     # error code if the request failed
@@ -48,6 +47,5 @@ def get_train_status(message):
     return
 
 bot.infinity_polling(
-    logger_level=INFO,
-    exception_handler=lambda e: print(e)
+    logger_level=INFO
 )
