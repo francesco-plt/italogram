@@ -1,6 +1,9 @@
 # italogram
 Tiny script which fetches data about running trains in Italo's train network
 
+## Disclaimer
+This bot uses unofficial APIs to fetch data. The information provided by this bot may not be accurate, complete, or up-to-date. The use of unofficial APIs may violate the terms of service of the services that this bot relies on, and therefore, the creators of this bot cannot guarantee the stability or reliability of the service. The creators of this bot do not assume any responsibility for the accuracy or reliability of the information provided, and the user of this bot assumes all risks associated with using the information provided. By using this bot, you acknowledge and agree to these terms and conditions.
+
 ## Usage
 First of all, create a Telegram bot with [Bot Father](https://telegram.me/BotFather). Then write the token in the `.env` file:
 ```
