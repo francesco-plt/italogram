@@ -2,7 +2,7 @@
 
 Tiny script which fetches data about running trains in Italo's train network
 
-<!-- <img src="https://user-images.githubusercontent.com/26849744/219042887-08b7c8d2-bc9b-4ef0-a087-21368b657663.png" alt="" width="50%" height="50%"> -->
+<img src="https://user-images.githubusercontent.com/26849744/219071582-7b25a598-f55d-49af-aec2-cfbdcf62f807.png" alt="" width="50%" height="50%">
 
 ## Disclaimer
 
