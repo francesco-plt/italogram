@@ -35,13 +35,7 @@ def get_train_status(message):
     elif data["IsEmpty"] == True:
         bot.send_message(message.chat.id, "That train doesn't exist or it's already arrived to destination...")
         return
-    data = clean_data(query_data(train_id))
-
-    # query_data returns the integer
-    # error code if the request failed
-    if type(data) == int:
-        bot.send_message(message.chat.id, "Requesto to Italo failed with error code %s..." % data)
-        return
+    data = clean_data(data)
     
     bot.send_message(message.chat.id, format_message(data), parse_mode = "HTML")
     return

@@ -26,7 +26,7 @@ The bot can be deployed with either [AWS Lambda](https://aws.amazon.com/it/lambd
 
 ### Deploying with container
 
-Now you can run the following commands to get it up and running:
+First complete the `docker-compose.yml` with your bot token. Now you can run the following commands to get it up and running:
 
 ```shell
 $ docker-compose build && docker-compose up -d
